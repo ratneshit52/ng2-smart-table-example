@@ -1,0 +1,6 @@
+<p>
+  order-list works!
+</p>
+<div class="panel panel-default">
+  <ng2-smart-table [settings]="settings" [source]="source" (createConfirm)="addRecord($event)" (editConfirm)="updateRecord($event)" (deleteConfirm)="deleteRecord($event)"></ng2-smart-table>
+</div>
